@@ -1,0 +1,23 @@
+@import "../styles/sharedStyle";
+
+.list {
+  margin-top: 50px;
+
+  li {
+    display: flex;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .link {
+    text-decoration: none;
+    color: $base-color;
+
+    .spanForName {
+      margin-left: 10px;
+      font-size: 16px;
+      font-family: $base-font-family;
+    }
+  }
+}

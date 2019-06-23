@@ -1,0 +1,20 @@
+@import '../styles/sharedStyle';
+
+.details {
+  .header {
+    font-size: 20px;
+    color: $base-color;
+    font-family: $base-font-family;
+    margin-top: 50px;
+  }
+  .rate {
+    color: #e74c3c;
+    margin: 15px;
+  }
+
+  .summary {
+    margin-top: 25px;
+    color: $base-color;
+    font-family: $base-font-family;
+  }
+}

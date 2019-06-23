@@ -1,6 +1,6 @@
-import { RECEIVE_DATA} from "../actions";
+import { RECEIVE_DATA } from "../actions/movieActions";
 
-export default (state = [], { type,response }) => {
+export default (state = [], { type, response }) => {
   switch (type) {
     case RECEIVE_DATA:
       return response;

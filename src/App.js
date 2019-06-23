@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import List from "./components/list";
-import Detail from "./components/details";
+import Details from "./components/details";
 import About from "./components/about";
 import { Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
@@ -13,16 +13,17 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <nav>
-          <NavLink to="/" exact>
+          <NavLink className="navLink" to="/" exact>
             Home
           </NavLink>
-          {" | "}
-          <NavLink to="/about">About</NavLink>
-          {" | "}
+          <NavLink className="navLink" to="/about">
+            About
+          </NavLink>
         </nav>
         <Switch>
           <Route exact path="/" component={List} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/:id" component={Details} />
         </Switch>
       </div>
     </Provider>
