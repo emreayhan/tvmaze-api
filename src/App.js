@@ -12,22 +12,21 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        {/* <nav>
+        <nav>
           <NavLink className="navLink" to="/" exact>
             Home
           </NavLink>
           <NavLink className="navLink" to="/about">
             About
           </NavLink>
-        </nav> */}
-        <HashRouter>
-        <Switch>
-          <Route exact path="/" component={List} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/:id" component={Details} />
-        </Switch>
-        </HashRouter>
+        </nav>
         
+          <Switch>
+            <Route exact path="/" component={List} />
+            <Route path="/about" component={About} />
+            <Route path="/:id" component={Details} />
+          </Switch>
+      
       </div>
     </Provider>
   );
