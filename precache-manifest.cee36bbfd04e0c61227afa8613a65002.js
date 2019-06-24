@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "177acd46eb991f45d191d88fbee1ef93",
+    "revision": "3f73d666d2ef26b8d7b982dcfd8c9dad",
     "url": "/tvmaze-api/index.html"
   },
   {
-    "revision": "a03b4da845c03eb3dd82",
+    "revision": "23201bc4a145164613cf",
     "url": "/tvmaze-api/static/css/main.3b6800c1.chunk.css"
   },
   {
-    "revision": "5a08e2a16f50886805b9",
-    "url": "/tvmaze-api/static/js/2.2d7b7348.chunk.js"
+    "revision": "c3db1cdfce73c183b4ab",
+    "url": "/tvmaze-api/static/js/2.88be7cd5.chunk.js"
   },
   {
-    "revision": "a03b4da845c03eb3dd82",
-    "url": "/tvmaze-api/static/js/main.72fe9bee.chunk.js"
+    "revision": "23201bc4a145164613cf",
+    "url": "/tvmaze-api/static/js/main.b7d86b2a.chunk.js"
   },
   {
     "revision": "5f599398a66ae77fe1a9",
