@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tvmaze-api/static/css/main.3b6800c1.chunk.css",
-    "main.js": "/tvmaze-api/static/js/main.bd90783b.chunk.js",
-    "main.js.map": "/tvmaze-api/static/js/main.bd90783b.chunk.js.map",
+    "main.js": "/tvmaze-api/static/js/main.962045aa.chunk.js",
+    "main.js.map": "/tvmaze-api/static/js/main.962045aa.chunk.js.map",
     "runtime~main.js": "/tvmaze-api/static/js/runtime~main.93d8631f.js",
     "runtime~main.js.map": "/tvmaze-api/static/js/runtime~main.93d8631f.js.map",
     "static/js/2.d5a9611a.chunk.js": "/tvmaze-api/static/js/2.d5a9611a.chunk.js",
     "static/js/2.d5a9611a.chunk.js.map": "/tvmaze-api/static/js/2.d5a9611a.chunk.js.map",
     "index.html": "/tvmaze-api/index.html",
-    "precache-manifest.cfd707491048be1f6f107030ff7a1b93.js": "/tvmaze-api/precache-manifest.cfd707491048be1f6f107030ff7a1b93.js",
+    "precache-manifest.06c250b522d5e3cb583567e61df66c5d.js": "/tvmaze-api/precache-manifest.06c250b522d5e3cb583567e61df66c5d.js",
     "service-worker.js": "/tvmaze-api/service-worker.js",
     "static/css/main.3b6800c1.chunk.css.map": "/tvmaze-api/static/css/main.3b6800c1.chunk.css.map"
   }
