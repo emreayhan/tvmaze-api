@@ -3,7 +3,7 @@ import "./App.scss";
 import List from "./components/list";
 import Details from "./components/details";
 import About from "./components/about";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store/store";
@@ -20,13 +20,11 @@ function App() {
             About
           </NavLink>
         </nav>
-        
-          <Switch>
-            <Route exact path="/" component={List} />
-            <Route path="/about" component={About} />
-            <Route path="/:id" component={Details} />
-          </Switch>
-      
+        <Switch>
+          <Route exact path="/" component={List} />
+          <Route path="/about" component={About} />
+          <Route path="/:id" component={Details} />
+        </Switch>
       </div>
     </Provider>
   );
