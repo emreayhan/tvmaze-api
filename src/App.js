@@ -13,17 +13,17 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <nav>
-          <NavLink className="navLink" to="https://emreayhan.github.io/tvmaze-api/" exact>
+          <NavLink className="navLink" to="/" exact>
             Home
           </NavLink>
-          <NavLink className="navLink" to="https://emreayhan.github.io/tvmaze-api/about">
+          <NavLink className="navLink" to="/about">
             About
           </NavLink>
         </nav>
         <Switch>
-          <Route exact path="https://emreayhan.github.io/tvmaze-api/" component={List} />
-          <Route exact path="https://emreayhan.github.io/tvmaze-api/about" component={About} />
-          <Route exact path="https://emreayhan.github.io/tvmaze-api/:id" component={Details} />
+          <Route exact path="/" component={List} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/:id" component={Details} />
         </Switch>
       </div>
     </Provider>
